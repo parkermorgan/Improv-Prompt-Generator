@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+    background: #007BFF;
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background: #0056b3;
+    border-radius: 5px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+iframe {
+    margin: 10px;
+}
+
+@media (min-width: 768px) {
+    .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        max-width: 1000px;
+        margin: 20px auto;
+    }
+
+    .video-section, .prompt-section {
+        flex: 1;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .video-section {
+        max-width: 50%;
+    }
+
+    .prompt-section {
+        max-width: 50%;
+        text-align: center;
+    }
+
+    #video-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    iframe {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 767px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-section, .prompt-section {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    #video-container {
+        justify-content: center;
+    }
+}

@@ -1,7 +1,7 @@
 {
-  "name": "outside",
+  "name": "improv",
   "version": "3.0.0",
-  "description": "Boilerplate for WDD 330 SleepOutside project",
+  "description": "Improv Prompt Generator",
   "main": "main.js",
   "scripts": {
     "start": "vite",
@@ -10,9 +10,8 @@
     "lint": "eslint *.js src/**/*.js",
     "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
     "test": "jest"
-    
   },
-  "author": "Shane Thompson",
+  "author": "Parker Morgan",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^9.20.0",
@@ -33,5 +32,6 @@
     "last 3 opera versions",
     "last 3 ios_saf versions",
     "last 3 safari versions"
-  ]
+  ],
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
 }
