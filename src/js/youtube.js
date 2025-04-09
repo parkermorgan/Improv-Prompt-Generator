@@ -8,15 +8,26 @@ document.addEventListener("DOMContentLoaded", () => {
     const API_KEY = 'AIzaSyCVTBA1X8H-eeGsJ79LMMMxT2nS9616SnQ';
     const BASE_URL = 'https://www.googleapis.com/youtube/v3/search';
 
+    const searchQueries = [
+        "Whose line is it anyway",
+        "Whose line is it anyway film noir",
+        "Whose line is it anyway guessing games",
+        "Whose line is it anyway greatest hits",
+        "Whose line is it anyway bartender",
+        "Whose line is it anyway improv games",
+        "Whose line is it anyway scenes from a hat"
+    ];
+
     if (fetchVideosBtn) {
         fetchVideosBtn.addEventListener("click", () => {
-            fetchYouTubeVideos("whose line is it anyway");
+            const randomQuery = searchQueries[Math.floor(Math.random() * searchQueries.length)];
+            fetchYouTubeVideos(randomQuery);
         });
     }
 
     if (filmVideosBtn) {
         filmVideosBtn.addEventListener("click", () => {
-            fetchYouTubeVideos("Whose line is it anyway film noir", "whose line is it anyway director");
+            fetchYouTubeVideos("Whose line is it anyway film noir");
         });
     }
 
@@ -28,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (musicVideosBtn) {
         musicVideosBtn.addEventListener("click", () => {
-            fetchYouTubeVideos("Whose line is it anyway greatest hits", "Whose line is it anyway bartender");
+            fetchYouTubeVideos("Whose line is it anyway greatest hits");
         })
     }
 
