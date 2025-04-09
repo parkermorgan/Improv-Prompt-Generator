@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const guessVideosBtn = document.getElementById("guessing-videos");
     const musicVideosBtn = document.getElementById("music-videos");
 
-    const API_KEY = 'AIzaSyCVTBA1X8H-eeGsJ79LMMMxT2nS9616SnQ';
+    const API_KEY = 'AIzaSyCYXp1zNkgRk7BhmYsxu0eGrNOCxhTkZkg';
     const BASE_URL = 'https://www.googleapis.com/youtube/v3/search';
 
     const searchQueries = [
