@@ -1,18 +1,56 @@
 {
     "music": [
-        "Sing a love song but make it sound like a horror movie soundtrack.",
-        "Rap about brushing your teeth.",
-        "Make up a song about your favorite snack.",
-        "Sing like you're a pop star who just forgot the lyrics."
+        "'You've got sole' - Shoes: The Musical",
+        "'Rising Up' - UFBros",
+        "'The Mayor Stole My Tuba' - Brass Tax",
+        "'I left my heart in the dishwasher' - Rinse Cycle: A Love Story",
+        "'Don’t Marry My Sister, She’s a Lizard' - Reptiles at the Reception",
+        "'Hold Me, I’m Molting' - Feathers & Feelings",
+        "'Jazz Hands of Destiny' - Fate: The Tap Musical",
+        "'I Found Love in the Lost and Found' - Return to Sender"
     ],
     "guessing": [
-        "Act out a famous movie scene without words, and let others guess the movie.",
-        "Pretend you're an animal, but don't say which one. Let others guess!",
-        "Describe an object in your house in the most confusing way possible."
+        "A vampire who's trying to go vegan",
+        "A spy who thinks everyone else is a spy",
+        "A person who thinks they're inside a cooking show",
+        "A person who believes they're invisible",
+        "A pirate who's afraid of water",
+        "A robot learning human emotions for the first time",
+        "An alien who misunderstands human customs",
+        "Someone who only communicates through mime",
+        "A Shakespearean actor stuck in character",
+        "A motivational speaker who treats everything like a TED Talk"
     ],
     "film": [
-        "You're an action hero with the worst catchphrase ever.",
-        "Describe your day as if it were a film noir detective movie.",
-        "Act out a soap opera scene where the main character is obsessed with potatoes."
-    ]
+        "Film Noir",
+        "Soap Operas",
+        "Post-Apocalyptic Cooking Show",
+        "Time Travelling High School Drama",
+        "Mockumentary",
+        "Employee Training Video",
+        "Haunted Reality TV Show",
+        "Cowboy Space Opera",
+        "Underwater Political Thriller",
+        "Silent Film about Loud People"
+    ],
+    "scenes": [
+    "Rejected lines from a superhero movie",
+    "Bad times to break into song",
+    "Things you shouldn’t say on a first date",
+    "If movie villains had normal day jobs",
+    "Unlikely things to overhear at a dentist office",
+    "Outtakes from a nature documentary voiceover",
+    "If historical figures were on reality TV",
+    "What your pets are really thinking",
+    "Worst possible wedding vows",
+    "Things you can say about your improv team but not your partner",
+    "Unseen footage from a cooking show disaster",
+    "If Shakespeare wrote modern commercials",
+    "What aliens think of Earth based on TV",
+    "Horrible reasons to start a GoFundMe",
+    "Unexpected announcements at church",
+    "Scenes from a badly translated foreign film",
+    "What NOT to do during a fire drill",
+    "Misheard fortune cookie messages"
+  ]
 }

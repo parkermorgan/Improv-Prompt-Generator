@@ -7,11 +7,11 @@ body {
 
 nav ul {
     list-style-type: none;
-    padding: 20px;
     background: #007BFF;
     overflow: hidden;
-    padding: 20px;
-    margin-top: 0;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px
 }
 
 
@@ -60,7 +60,27 @@ button:hover {
     justify-content: center;
 }
 iframe {
-    margin: 10px;
+  
+    margin:10px;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+}
+
+footer {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.main-container {
+    margin-bottom: 100px;
 }
 
 @media (min-width: 768px) {
@@ -98,8 +118,14 @@ iframe {
 
     iframe {
         width: 100%;
-        max-width: 320px;
+        max-width: 500px;
     }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+
 }
 
 /* Mobile View */

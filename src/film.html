@@ -7,21 +7,41 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="music.html">Music Games</a></li>
-            <li><a href="guessing.html">Guessing Games</a></li>
-        </ul>
-    </nav>
+    <header>
+        <h1>Film Categories</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="music.html">Music Games</a></li>
+                <li><a href="guessing.html">Guessing Games</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="container">
+    <div class="main-container">
+        <div class="video-section">
+            <h1>Film Category Videos</h1>
+            <p>Click the button to get video suggestions!</p>
+            <button id="film-videos">Find Videos</button>
+            <div id="video-container"></div>
+        </div>
+        <div class="prompt-section">
         <h1>Film Category Prompts</h1>
         <p id="prompt-text">Click the button to get a prompt!</p>
         <button id="select-page-type">Generate Prompt</button>
+        </div>
+        
+           
     </div>
+    <div id="video-container"></div> 
 
     <script src="js/script.js"></script>
     <script src="js/pagetype.js"></script>
+    <script src="js/youtube.js"></script>
+    <footer>
+        <p>
+            &copy; | Parker Morgan | WDD 330 | Improv Prompt Generator
+        </p>
+    </footer>
 </body>
 </html>
