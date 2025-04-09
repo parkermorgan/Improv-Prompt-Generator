@@ -15,21 +15,30 @@
                 <li><a href="music.html">Music Games</a></li>
                 <li><a href="guessing.html">Guessing Games</a></li>
                 <li><a href="film.html">Film Categories</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
             </ul>
         </nav>
     </header>
-    
+    <div class="introduction">
+        <h2>Welcome to the Improv Prompt Generator!</h2>
+    </div>
 
     <div class="main-container">
       <div class="video-section">
+        <h2>Videos</h2>
+          <p>Click the button to get improv game examples!</p>
           <button id="fetch-videos">Find Improv Videos</button>
-          <p>Click the button to get improv game suggestions!</p>
           <div id="video-container"></div>
       </div>
   
       <div class="prompt-section">
-          <button id="generate-prompt">Generate a Prompt</button>
+        <h2>Prompts</h2>
           <p id="prompt-text">Click the button to get a random prompt!</p>
+          <button id="generate-prompt">Generate a Prompt</button>
+          <button id="favorite-prompt">Favorite</button>
+          <div id="loading-container" style="display: none;">
+            <div id="loading-bar"></div>
+        </div>
       </div>
   </div>
     <script src="js/youtube.js"></script>

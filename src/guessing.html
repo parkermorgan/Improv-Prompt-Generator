@@ -14,18 +14,32 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="music.html">Music Games</a></li>
             <li><a href="film.html">Film Categories</a></li>
+            <li><a href="favorites.html">Favorites</a></li>
         </ul>
     </nav>
     </header>
 
-    <div class="container">
-        <h1>Guessing Game Prompts</h1>
-        <p id="prompt-text">Click the button to get a prompt!</p>
-        <button id="select-page-type">Generate Prompt</button>
+    <div class="main-container">
+        <div class="video-section">
+            <h2>Guessing Game Videos</h2>
+            <p>Click the button to get video suggestions!</p>
+            <button id="guessing-videos">Find Videos</button>
+            <div id="video-container"></div>
+        </div>
+        <div class="prompt-section">
+            <h2>Guessing Game Prompts</h2>
+            <p id="prompt-text">Click the button to get a prompt!</p>
+                <div id="loading-container" style="display:none;">
+                    <div id="loading-bar"></div>
+                </div>
+            <button id="select-page-type">Generate Prompt</button>
+            <button id="favorite-prompt">Favorite</button>
+        </div>
     </div>
 
     <script src="js/script.js"></script>
     <script src="js/pagetype.js"></script>
+    <script src="js/youtube.js"></script>
     <footer>
         <p>
             &copy; | Parker Morgan | WDD 330 | Improv Prompt Generator

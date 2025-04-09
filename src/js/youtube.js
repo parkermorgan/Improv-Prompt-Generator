@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const videoContainer = document.getElementById("video-container");
     const fetchVideosBtn = document.getElementById("fetch-videos");
     const filmVideosBtn = document.getElementById("film-videos");
-
-    
+    const guessVideosBtn = document.getElementById("guessing-videos");
+    const musicVideosBtn = document.getElementById("music-videos");
 
     const API_KEY = 'AIzaSyCVTBA1X8H-eeGsJ79LMMMxT2nS9616SnQ';
     const BASE_URL = 'https://www.googleapis.com/youtube/v3/search';
@@ -16,8 +16,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (filmVideosBtn) {
         filmVideosBtn.addEventListener("click", () => {
-            fetchYouTubeVideos("Whose line is it anyway guessing game");
+            fetchYouTubeVideos("Whose line is it anyway film noir", "whose line is it anyway director");
         });
+    }
+
+    if (guessVideosBtn) {
+        guessVideosBtn.addEventListener("click", () => {
+            fetchYouTubeVideos("Whose line is it anyway guessing games");
+        });
+    }
+
+    if (musicVideosBtn) {
+        musicVideosBtn.addEventListener("click", () => {
+            fetchYouTubeVideos("Whose line is it anyway greatest hits", "Whose line is it anyway bartender");
+        })
     }
 
     async function fetchYouTubeVideos(query) {
